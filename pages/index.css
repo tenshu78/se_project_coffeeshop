@@ -3,7 +3,6 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Inter", "Arial", "sans-serif";
-  font-family: "Noto Serif", "Times New Roman", "Serif";
   font-size: 16px;
   line-height: 20px;
 }
@@ -33,7 +32,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif","Times New Roman", "Serif";
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
