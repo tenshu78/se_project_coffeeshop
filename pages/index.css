@@ -115,7 +115,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.recipes_title {
+.recipe__title {
   margin: 0 0 24px;
   font-family: "Inter";
   font-style: normal;
@@ -125,7 +125,7 @@
   max-width: 580px;
 }
 
-.recipes_subtitle {
+.recipe__subtitle {
   margin: 0 0 80px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -135,14 +135,14 @@
   max-width: 438px;
 }
 
-.recipes_videos {
+.recipe__videos {
   display: flex;
   justify-content: center;
   gap: 40px;
   list-style-type: none;
 }
 
-.recipes_video-caption {
+.recipe__video-caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter";
