@@ -133,7 +133,12 @@
               </label>
               <label for="date/time" class="form__label">
                 Date & time *
-                <input required type="datetime-local" class="form__input" />
+                <input
+                  required
+                  type="datetime-local"
+                  class="form__input"
+                  id="date/time"
+                />
               </label>
               <label for="email" class="form__label">
                 Your email *
@@ -141,13 +146,13 @@
                   required
                   type="email"
                   class="form__input"
-                  id="date/time"
+                  id="email"
                   placeholder="email.email.com"
                 />
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
-            <label for="checkbox" class="form__label_type_checkbox">
+            <label for="checkbox" class="form__label form__label_type_checkbox">
               <input
                 required
                 type="checkbox"
